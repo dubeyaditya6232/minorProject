@@ -1,0 +1,36 @@
+.navbar{
+    height: 50px;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer{
+    width:80%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.logo{
+    font-weight: 600;
+    color: white;
+}
+
+.navButton{
+    font-weight: normal;
+    margin-left: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: rgb(3, 3, 3);
+}
+
+.navUser{
+    display: flex;
+}
+
+.userName{
+    color: white;
+}

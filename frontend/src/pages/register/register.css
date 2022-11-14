@@ -1,0 +1,50 @@
+.register{
+    background-color: rgb(60, 125, 182);
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lContainer{
+    background-color: rgb(250, 249, 249);
+    padding: 40px 40px 40px 40px;
+    min-height: fit-content;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+    width: 30vw;
+}
+
+.lTitle{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(13, 0, 83);
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.lInput{
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.lButton{
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.lButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+}
